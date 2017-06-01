@@ -1,0 +1,157 @@
+/* Scss Document */
+h1, h2, p {
+  margin: 0px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.clearfix {
+  float: none;
+  clear: both; }
+
+body {
+  font-size: 14px;
+  color: #777;
+  line-height: 16px;
+  font-family: "Playfair Display", serif; }
+
+.main-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0px 16px; }
+
+header {
+  width: 100%;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DDD; }
+
+.header-logo {
+  width: 42%;
+  height: 110px;
+  overflow: hidden;
+  display: block;
+  background: url(../img/logo-el-confidencial.svg) no-repeat center center;
+  text-indent: -9999px;
+  margin: 10px auto; }
+
+nav {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #8C8383;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 100; }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: baseline; }
+    nav ul li {
+      margin: 5px;
+      order: 0;
+      flex: 1 0 auto;
+      align-self: auto; }
+      nav ul li a {
+        color: #8C8383;
+        padding: 5px; }
+        nav ul li a:hover {
+          color: #0C3749;
+          border-bottom: 1px solid #0C3749; }
+        nav ul li a:active {
+          color: #0C3749;
+          border-bottom: 1px solid #0C3749; }
+        nav ul li a:focus {
+          color: #0C3749;
+          text-decoration: underline;
+          border-bottom: 1px solid #0C3749; }
+
+.article-data {
+  font-size: 12px;
+  color: #9A9A9A;
+  padding-top: 14px; }
+  .article-data .article-autor {
+    color: #046086;
+    text-transform: uppercase;
+    padding-right: 8px;
+    border-right: 1px solid #DDD;
+    display: inline-block;
+    float: left;
+    font-family: "Roboto", sans-serif; }
+  .article-data time {
+    padding: 0px 8px;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #DDD; }
+  .article-data span {
+    padding: 0px 8px 0px 14px;
+    background: url(../img/icon-coment.png) no-repeat left center;
+    display: inline-block;
+    float: left;
+    margin-left: 8px; }
+
+main {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 12px; }
+
+.main-article {
+  width: 100%;
+  display: block; }
+  .main-article img {
+    width: 61%;
+    float: right; }
+  .main-article .article-text {
+    padding-right: 0px;
+    width: 37%; }
+    .main-article .article-text h2 {
+      font-size: 28px;
+      line-height: 38px; }
+  .main-article .article-resume {
+    display: inline-block;
+    padding-top: 16px;
+    line-height: 19px; }
+
+section {
+  max-width: 576px;
+  float: left;
+  margin-right: 2%;
+  display: inline-block;
+  margin-top: 24px; }
+
+.secundary-article {
+  margin-bottom: 20px;
+  display: inline-block; }
+  .secundary-article img {
+    width: 48%;
+    margin-right: 2%;
+    float: left; }
+  .secundary-article .article-text {
+    margin-left: 2%;
+    width: 48%;
+    float: left; }
+    .secundary-article .article-text h2 {
+      font-size: 22px;
+      line-height: 26px; }
+    .secundary-article .article-text .article-data {
+      display: inline-block; }
+    .secundary-article .article-text .article-resume {
+      display: inline-block;
+      padding-top: 8px;
+      line-height: 19px; }
+
+.left-side-banner {
+  margin-top: 24px;
+  float: left;
+  background-color: #888888;
+  width: 160px;
+  height: 580px;
+  margin-left: 2%;
+  display: inline-block; }
